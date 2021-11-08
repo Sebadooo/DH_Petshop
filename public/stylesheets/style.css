@@ -52,14 +52,14 @@ h1.Titulo {
     flex-wrap: wrap;
     justify-content: space-around;
     width: 60vw;
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: bold;
     align-items: center;
     padding: 15px 15px 15px 15px;
 }
 
 .menu_2 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: bold;
     text-shadow: gray 5px;
     padding-right: 15px;
@@ -73,4 +73,35 @@ a:link {
 a:hover {
     color: blue;
     text-shadow: white 2px 2px 2px;
+}
+
+a:visited {
+    color: yellow;
+}
+
+.formularios {
+    font-family: calibri;
+    margin: 20px 20vw 20px 20vw;
+    padding: 30px;
+    align-items: center;
+    font-weight: bold;
+    border: solid 1px crimson;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.etiquetas1 {
+    font-size: 1.5rem;
+    width: 100%;
+    justify-content: center;
+}
+
+.inputs1 {
+    width: 100%;
+    justify-content: center;
 }

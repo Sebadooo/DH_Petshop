@@ -9,27 +9,24 @@
 </head>
 
 <body>
-    <header>
-        <img src="/images/Logo_1.jpg" alt="logo principal" class="LogoPrincipal">
-        <h1 class="Titulo">Digital Petshop</h1>
-    </header>
-    <nav class="BarraDeMenu">
-        <section>
-            <ul class="menu_1" type="none">
-                <li><a href="alimentos">Alimentos</a></li>
-                <li><a href="accesorios">Accesorios</a></li>
-                <li><a href="digital_spa">Digital Spa</a></li>
-                <li><a href="digital_vet">Digital Vet</a></li>
-            </ul>
-        </section>
-        <section>
-            <ul class="menu_2" type="none">
-                <li><a href="/iniciarSesion">Iniciá sesión</a></li>
-                <li><a href="/crearCuenta">Creá tu cuenta</a></li>
-            </ul>
+    <%- include('partials/header.ejs') %>
+        <nav class="BarraDeMenu">
+            <section>
+                <ul class="menu_1" type="none">
+                    <li><a href="alimentos">Alimentos</a></li>
+                    <li><a href="accesorios">Accesorios</a></li>
+                    <li><a href="digital_spa">Digital Spa</a></li>
+                    <li><a href="digital_vet">Digital Vet</a></li>
+                </ul>
+            </section>
+            <section>
+                <ul class="menu_2" type="none">
+                    <li><a href="/iniciarSesion">Iniciá sesión</a></li>
+                    <li><a href="/crearCuenta">Creá tu cuenta</a></li>
+                </ul>
 
-        </section>
-    </nav>
+            </section>
+        </nav>
 </body>
 
 </html>

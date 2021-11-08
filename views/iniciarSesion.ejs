@@ -9,21 +9,31 @@
 </head>
 
 <body>
-    <header>
-        <img src="/images/Logo_1.jpg" alt="logo principal" class="LogoPrincipal">
-        <h1 class="Titulo">Digital Petshop</h1>
-    </header>
-
-    <section class="formularios">
-        <form action="/registro" method="post">
-            <label for="nombre">Nombre: </label>
-            <input type="text" name="usuario">
-            <label for="clave">Contraseña: </label>
-            <input type="password" name="clave">
-            <label for="email">Email: </label>
-            <input type="email" name="email">
-        </form>
-    </section>
+    <%- include('partials/header.ejs') %>
+        <main>
+            <section class="formularios">
+                <form action="/registro" method="post">
+                    <p class="etiquetas1">
+                        <label for="nombre">Nombre: </label>
+                    </p>
+                    <p class="inputs1">
+                        <input type="text" name="usuario">
+                    </p>
+                    <p class="etiquetas1">
+                        <label for="clave">Contraseña: </label>
+                    </p>
+                    <p class="inputs1">
+                        <input type="password" name="clave">
+                    </p>
+                    <p class="etiquetas1">
+                        <label for="email">Email: </label>
+                    </p>
+                    <p class="inputs1">
+                        <input type="email" name="email">
+                    </p>
+                </form>
+            </section>
+        </main>
 </body>
 
 </html>
