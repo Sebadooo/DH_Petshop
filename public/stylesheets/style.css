@@ -1,107 +1,124 @@
-body {
-    padding: 50px;
-    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-
-a {
-    color: #00B7FF;
-}
-
-header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: crimson;
-}
-
-.LogoPrincipal {
-    width: 30%;
-    margin: 15px 0 15px 15px;
-    border-radius: 60px;
-    box-shadow: gray 5px 5px 5px;
-}
-
-h1.Titulo {
-    width: 50vw;
-    background-color: white;
-    margin: 0 20px 0 0;
-    padding: 10px;
-    font-weight: bold;
-    color: yellow;
-    text-shadow: gray 2px 2px 2px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifs;
-    font-size: 3rem;
-    text-align: center;
-    border-radius: 20px;
-    border: dashed 1.5px gray;
-}
-
-.BarraDeMenu {
-    padding: 10px 15px 10px 15px;
-    background-color: crimson;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: yellow;
-    text-shadow: gray 2px 2px 2px;
-    display: flex;
-    justify-content: space-between;
-    border-top: gray 2px solid;
-}
-
-.menu_1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 60vw;
-    font-size: 1.3rem;
-    font-weight: bold;
-    align-items: center;
-    padding: 15px 15px 15px 15px;
-}
-
-.menu_2 {
-    font-size: 1.2rem;
-    font-weight: bold;
-    text-shadow: gray 5px;
-    padding-right: 15px;
-}
-
-a:link {
-    color: yellow;
-    text-shadow: gray 2px 2px 2px;
-}
-
-a:hover {
-    color: blue;
-    text-shadow: white 2px 2px 2px;
-}
-
-a:visited {
-    color: yellow;
-}
-
-.formularios {
-    font-family: calibri;
-    margin: 20px 20vw 20px 20vw;
-    padding: 30px;
-    align-items: center;
-    font-weight: bold;
-    border: solid 1px crimson;
-    flex-direction: column;
-}
-
-form {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.etiquetas1 {
-    font-size: 1.5rem;
-    width: 100%;
-    justify-content: center;
-}
-
-.inputs1 {
-    width: 100%;
-    justify-content: center;
-}
+        * {
+            box-sizing: border-box;
+            margin: 0;
+        }
+        
+        body {
+            width: 100vw;
+        }
+        
+        header {
+            width: 100vw;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: crimson;
+        }
+        
+        .LogoPrincipal {
+            width: 30vw;
+            margin: 15px 0 15px 15px;
+            border-radius: 60px;
+            box-shadow: gray 5px 5px 5px;
+        }
+        
+        h1.Titulo {
+            width: 50vw;
+            background-color: white;
+            margin: 0 20px 0 0;
+            padding: 10px;
+            font-weight: bold;
+            color: yellow;
+            text-shadow: gray 2px 2px 2px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifs;
+            font-size: 2rem;
+            text-align: center;
+            border-radius: 20px;
+            border: dashed 1.5px gray;
+        }
+        
+        .BarraDeMenu {
+            margin: 0;
+            width: 100vw;
+            background-color: crimson;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: yellow;
+            text-shadow: gray 2px 2px 2px;
+            display: flex;
+            justify-content: space-between;
+            border-top: gray 2px solid;
+        }
+        
+        .menu_1 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            width: 60vw;
+            font-size: 1.3rem;
+            font-weight: bold;
+            align-items: center;
+        }
+        
+        .menu_2 {
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-shadow: gray 5px;
+            padding-right: 15px;
+        }
+        
+        a:link {
+            color: yellow;
+            text-shadow: gray 2px 2px 2px;
+        }
+        
+        a:hover {
+            color: blue;
+            text-shadow: white 2px 2px 2px;
+        }
+        
+        a:visited {
+            color: yellow;
+        }
+        
+        .formularios {
+            font-family: calibri;
+            margin: 20px 20vw 20px 20vw;
+            padding: 30px;
+            align-items: center;
+            font-weight: bold;
+            border: solid 1px crimson;
+            flex-direction: column;
+        }
+        
+        form {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+        .título {
+            display: flex;
+            justify-content: center;
+            color: gray;
+            text-shadow: rgb(218, 217, 217) 2px 2px 2px;
+            width: 100%;
+            font-family: exo 2;
+            font-size: 2rem;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        
+        .etiquetas1 {
+            font-size: 1.5rem;
+            width: 100%;
+            justify-content: center;
+        }
+        
+        .inputs1 {
+            width: 100%;
+            justify-content: center;
+        }
+        
+        .boton1 {}
+        
+        .boton1 {}

@@ -11,10 +11,11 @@
 <body>
     <%- include('partials/header.ejs') %>
         <main>
+            <h3 class="título">INICIA SESION</h3>
             <section class="formularios">
                 <form action="/registro" method="post">
                     <p class="etiquetas1">
-                        <label for="nombre">Nombre: </label>
+                        <label for="nombre">Usuario: </label>
                     </p>
                     <p class="inputs1">
                         <input type="text" name="usuario">
@@ -25,11 +26,8 @@
                     <p class="inputs1">
                         <input type="password" name="clave">
                     </p>
-                    <p class="etiquetas1">
-                        <label for="email">Email: </label>
-                    </p>
-                    <p class="inputs1">
-                        <input type="email" name="email">
+                    <p class="boton1">
+                        <button type="submit">INGRESAR!</button>
                     </p>
                 </form>
             </section>
