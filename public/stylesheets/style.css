@@ -47,6 +47,7 @@
             display: flex;
             justify-content: space-between;
             border-top: gray 2px solid;
+            border-bottom: gray 2px solid;
         }
         
         .menu_1 {
@@ -57,13 +58,14 @@
             font-size: 1.3rem;
             font-weight: bold;
             align-items: center;
+            padding: 10px 0 10px 0;
         }
         
         .menu_2 {
-            font-size: 1.2rem;
+            font-size: 1rem;
             font-weight: bold;
             text-shadow: gray 5px;
-            padding-right: 15px;
+            padding-right: 10px;
         }
         
         a:link {
@@ -119,6 +121,76 @@
             justify-content: center;
         }
         
-        .boton1 {}
+        .footer {
+            width: 100vw;
+            align-items: center;
+            background-color: crimson;
+            border: solid 2px gray;
+            font-size: 1.2rem;
+            line-height: 1rem;
+        }
         
-        .boton1 {}
+        .footer a {
+            margin: 15px 20px 15px 0;
+            font-size: 1.1rem;
+        }
+        
+        .titulin {
+            color: rgb(218, 217, 217);
+            text-shadow: black 2px 2px;
+            text-align: center;
+            margin: 15px 20px 15px 0;
+            font-size: 1.1rem;
+            text-decoration: underline;
+        }
+        
+        .nosotros {
+            text-align: center;
+            margin: 15px 20px 15px 0;
+        }
+        
+        .menuChico {
+            color: rgb(218, 217, 217);
+            text-shadow: black 2px 2px;
+            text-align: center;
+            margin: 15px 20px 15px 0;
+        }
+        
+        .contacto {
+            color: rgb(218, 217, 217);
+            text-shadow: black 2px 2px;
+            margin: 15px 20px 15px 0;
+            text-align: center;
+        }
+        
+        .sucursales {
+            color: rgb(218, 217, 217);
+            text-shadow: black 2px 2px;
+            margin: 15px 20px 15px 0;
+            text-align: center;
+        }
+        
+        .LoguitoYRedes {
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .LogoChico {
+            text-align: center;
+            width: 20vw;
+            border-radius: 60px;
+            margin: 15px 30px 15px 30px;
+            box-shadow: gray 5px 5px 5px;
+            border-bottom: 15px;
+        }
+        
+        .redes {
+            color: rgb(218, 217, 217);
+            text-shadow: black 2px 2px;
+            margin: 15px 0 15px 0;
+            text-align: left;
+        }
+        
+        .redes.Logui:hover {
+            color: red;
+        }
