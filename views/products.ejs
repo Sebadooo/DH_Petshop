@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<%- include('partials/head.ejs') %>
+
+    <body>
+        <%- include('partials/header.ejs') %>
+            <main>
+                <main>
+                    <h3 class="título">AGREGAR PRODUCTO</h3>
+                    <section class="formularios">
+                        <form action="/registro" method="post">
+                            <p class="etiquetas1">
+                                <label>Agrega una imagen: </label>
+                            </p>
+                            <p class="inputs1">
+                                <input type="file" name="producto" accept="jpg" multiple>
+                            </p>
+                            <p class="etiquetas1">
+                                <label for="descripcionProd">Descripcion del producto: </label>
+                            </p>
+                            <p class="inputs1">
+                                <textarea name="descripcionProd" id="descripcion"></textarea>
+                            </p>
+                            <p class="etiquetas1">
+                                <label for="precio">Precio: </label>
+                            </p>
+                            <p class="inputs1">
+                                <input type="text" name="precio">
+                            </p>
+                            <p class="boton1">
+                                <button type="submit">Agregar!</button>
+                            </p>
+                        </form>
+                    </section>
+                </main>
+
+            </main>
+            <%- include('partials/footer.ejs') %>
+    </body>
+
+</html>

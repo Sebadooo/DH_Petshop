@@ -8,8 +8,9 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var iniciarSesionRouter = require('./routes/iniciarSesion');
 var crearCuentaRouter = require('./routes/crearCuenta');
-var carrito = require('./routes/carrito');
-var productoPerros = require('./routes/productoPerros');
+var carritoRouter = require('./routes/carrito');
+var productoPerrosRouter = require('./routes/productoPerros');
+var productsRouter = require('./routes/products');
 
 var app = express();
 
@@ -22,9 +23,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-app.use('/carrito', carrito);
-app.use('/productoPerros', productoPerros);
-
+app.use('/carrito', carritoRouter);
+app.use('/productoPerros', productoPerrosRouter);
+app.use('/products', productsRouter);
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/iniciarSesion', iniciarSesionRouter);

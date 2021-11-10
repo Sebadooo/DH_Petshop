@@ -81,34 +81,33 @@
         a:visited {
             color: yellow;
         }
-
-        .productos{
+        
+        .productos {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
             margin: 20px 0 20px 0;
-
         }
-
-
-        .productos img{
+        
+        .productos img {
             width: 25vw;
         }
-
-        .productoPerros{
+        
+        .productoPerros {
             display: flex;
             justify-content: space-around;
         }
-        .produ{
+        
+        .produ {
             width: 25vw;
             border: solid 2px grey;
         }
-
-        .produ img{
+        
+        .produ img {
             width: 20vw;
         }
-
-        .agregar-carrito{
+        
+        .agregar-carrito {
             width: 15vw;
             margin: 5px 5vw 5px 5vw;
         }
@@ -260,4 +259,12 @@
             border: dashed 2px rgb(1, 83, 1);
             border-radius: 6px 6px;
             margin: 0 5vw 2vw 5vw;
+        }
+        
+        .add-carrito {
+            width: 15vw;
+            display: flex;
+            size: 15vw;
+            align-self: center;
+            justify-content: space-around;
         }

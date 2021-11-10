@@ -1,3 +1,17 @@
-<h1><%= message %></h1>
-<h2><%= error.status %></h2>
-<pre><%= error.stack %></pre>
+<!DOCTYPE html>
+<html>
+<%- include('partials/head.ejs') %>
+
+    <body>
+        <%- include('partials/header.ejs') %>
+
+            <h1>
+                TIRASTE FRUTA...
+            </h1>
+            <H2>
+                <%= message %>
+            </H2>
+            <h3>
+                <%= error.status %>
+            </h3>
+            <pre><%= error.stack %></pre>
