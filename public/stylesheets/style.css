@@ -101,13 +101,14 @@
         .título {
             display: flex;
             justify-content: center;
-            color: gray;
+            color: rgb(53, 52, 52);
             text-shadow: rgb(218, 217, 217) 2px 2px 2px;
             width: 100%;
             font-family: exo 2;
             font-size: 2rem;
             font-weight: bold;
             text-decoration: underline;
+            margin: 2vw 0 2vw 0;
         }
         
         .etiquetas1 {
@@ -192,27 +193,40 @@
             font-weight: bold;
             font-size: 1.5rem;
         }
-
-
-        .carrito-sec1{
-            background-color: rgb(204, 199, 199);
-            border-top: black 2px solid;
-            display:flex;
+        
+        .carritoDeCompras {
+            display: flex;
+            justify-content: space-around;
         }
-
-        .carrito-detalle{
-           width: 50vw;
-           
+        
+        .carritoBox1 {
+            width: 60vw;
+            background-color: white;
+            border: black 2px solid;
         }
-
-        .carrito h2 {
+        
+        .carritoBox2 {
+            width: 30vw;
+            border: black 2px solid;
+        }
+        
+        .botonAdd {
             width: 50vw;
-            margin: 0 20px 0 0;
-            padding: 10px;
-            color: black;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifs;
-            font-size: 2rem;
-            text-align: center;
-            justify-content: center;
+            height: 80px;
+            color: rgb(82, 161, 82);
+            border: dashed 2px green;
+            border-radius: 6px 6px;
+            margin: 0 5vw 0 5vw;
         }
-		
+        
+        .botonComprar {
+            width: 20vw;
+            height: 50px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            background-color: green;
+            color: lightgreen;
+            border: dashed 2px rgb(1, 83, 1);
+            border-radius: 6px 6px;
+            margin: 0 5vw 2vw 5vw;
+        }
