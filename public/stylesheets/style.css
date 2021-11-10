@@ -81,6 +81,37 @@
         a:visited {
             color: yellow;
         }
+
+        .productos{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px 0 20px 0;
+
+        }
+
+
+        .productos img{
+            width: 25vw;
+        }
+
+        .productoPerros{
+            display: flex;
+            justify-content: space-around;
+        }
+        .produ{
+            width: 25vw;
+            border: solid 2px grey;
+        }
+
+        .produ img{
+            width: 20vw;
+        }
+
+        .agregar-carrito{
+            width: 15vw;
+            margin: 5px 5vw 5px 5vw;
+        }
         
         .formularios {
             font-family: calibri;

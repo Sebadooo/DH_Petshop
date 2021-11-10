@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <title>Productos Perros</title>
+</head>
+<body>
+    <%- include('partials/header.ejs') %>
+    <main>
+        <h3 class="título">Alimentos para Perros</h3>
+        <section class="productoPerros">
+            <div class="produ">
+                <img src="/images/pedigree.jpg" alt="pedigree">
+                <p>
+                    PEDIGREE POUCH ADULTO POLLO
+                </p>
+                <p>
+                    <button class="agregar-carrito" type="submit"> + </button>
+                </p>
+            </div>
+            <div class="produ">
+                <img src="/images/royacanin.jpg" alt="royal">
+                <p>
+                    ROYAL CANIN POUCH MINI AGEING +12
+                </p>
+                <p>
+                    <button class="agregar-carrito" type="submit"> + </button>
+                </p>
+            </div>
+            <div class="produ">
+                <img src="/images/old-prince-adulto.jpg" alt="prince">
+                <p>
+                    OLD PRINCE CORDERO Y ARROZ ADULTO MED & GRD X 15+3 KG
+                </p>
+                <p>
+                    <button class="agregar-carrito" type="submit"> + </button>
+                </p>
+            </div> 
+        </section>
+    </main>
+    <%- include('partials/footer.ejs') %>
+    
+</body>
+</html>
