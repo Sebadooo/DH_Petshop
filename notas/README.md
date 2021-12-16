@@ -33,3 +33,6 @@ Soy técnico electromecánico y trabajo en el sector administrativo de gestión 
 		  Estudie hasta 3er año de la UNLM la carrera de Ingeniería en Informática.
       Soy programador hace más de 20 años, siempre trabaje con productos Oracle y con base de datos, desarrollando soluciones en lenguaje SQL y PL/Sql para el ERP EBusienss Suite realizando todo tipo de objetos de bases de dato y tambien desarrollando reportes y pantallas utilizando las suite 11i de Oracle (Forms and Reports). 
       Actualmente soy empleado de Oracle Argentina y soy especialista técnico y mis tareas principales son el diseño y desarrollo de soluciones para el ERP Cloud de Oracle para los clientes en los cuales implementamos. Al ser un ambiente cloud ademas de Sql también utilizo web services y APIs de Oracle y de externos para integrar diferentes sistemas con la aplicación.
+
+link de Trello:
+https://trello.com/b/98OLWO6h/grupo10dhpetshop
